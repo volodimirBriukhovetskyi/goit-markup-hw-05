@@ -67,7 +67,7 @@ border-radius: 4px; */
 body {
   color: var(--primary-color);
   background-color: var(--main-white);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
 }
 
@@ -92,7 +92,7 @@ body {
 
   color: var(--accent-color);
   align-items: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -109,7 +109,7 @@ body {
   display: inline-block;
   color: var(--accent-color);
   align-items: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -153,8 +153,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   /* identical to box height, or 150% */
-  border-bottom: 1px solid transparent;
-  letter-spacing: 0.02em;
+  /* border-bottom: 1px solid transparent; */
+  /* letter-spacing: 0.02em; */
 }
 .nav-list .link:hover,
 .nav-list .link:focus {
@@ -184,7 +184,7 @@ body {
   line-height: 1.5;
   /* identical to box height, or 150% */
   /* border-bottom: 1px solid transparent; */
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
 }
 .nav-auth-list .link:hover,
 .nav-auth-list .link:focus {
@@ -206,7 +206,7 @@ body {
 /*оформлення синього підкреслення активної сторінки у хедері*/
 .underline::after,
 .current::after {
-  content: '';
+  content: "";
 
   position: absolute;
   bottom: 0;
@@ -262,7 +262,7 @@ body {
   /* or 107% */
 
   text-align: center;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
 }
 .hero-btn {
   margin-left: auto;
@@ -414,7 +414,7 @@ body {
   line-height: 1.5;
   /* or 150% */
 
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
 }
 
 /* section info 3*/
@@ -431,7 +431,7 @@ body {
   /* identical to box height, or 111% */
 
   text-align: center;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   text-transform: capitalize;
 }
 .info-list {
@@ -477,7 +477,7 @@ body {
   /* identical to box height, or 111% */
 
   text-align: center;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   text-transform: capitalize;
 }
 
@@ -520,7 +520,7 @@ body {
   /* identical to box height, or 120% */
 
   text-align: center;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
 }
 .team-list .text {
   font-size: 16px;
@@ -528,7 +528,7 @@ body {
   /* identical to box height, or 150% */
 
   text-align: center;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   margin-bottom: 8px;
 }
 .team-icon-list,
@@ -580,7 +580,7 @@ body {
   /* identical to box height, or 111% */
 
   text-align: center;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   text-transform: capitalize;
 
   /* NAVY BLUE */
@@ -644,7 +644,7 @@ body {
   line-height: 1.5;
   /* or 150% */
 
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
 }
 
 .social-media {
@@ -793,7 +793,7 @@ body {
   line-height: 1.2;
   /* identical to box height, or 120% */
 
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
 }
 .project-list .text {
   /* margin-left: 16px; */
@@ -801,7 +801,7 @@ body {
   line-height: 1.5;
   /* identical to box height, or 150% */
 
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   color: var(--primary-color);
 }
 .project-list > item {
